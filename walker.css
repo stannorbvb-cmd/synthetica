@@ -1,0 +1,63 @@
+@define-color selected-text #6f6f92;
+@define-color text #e7dfdf;
+@define-color base #000000;
+@define-color border #3e3e5d;
+@define-color foreground #e7dfdf;
+@define-color background #000000;
+
+/* Main Window */
+window {
+  background: transparent;
+}
+
+.box-wrapper {
+  border-radius: 8px;
+  background-color: @background;
+  border: 1px solid @border;
+  padding: 10px;
+}
+
+/* Search Bar - Static and clean */
+window .search-container {
+  background: alpha(@border, 0.2);
+  border: 1px solid alpha(@border, 0.4);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+
+window .search {
+  color: @foreground;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* List Items - No transitions for instant feedback */
+child {
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 1px 0;
+  transition: none; /* Disables all animations */
+}
+
+/* Hover State */
+child:hover {
+  background-color: alpha(@border, 0.25);
+}
+
+/* Selected item - Bold and clear without moving */
+child:selected {
+  background-color: alpha(@selected-text, 0.3);
+  border: 1px solid alpha(@selected-text, 0.5);
+}
+
+/* Text inside selected item - No margin shifts */
+child:selected .item-box {
+  color: @foreground;
+}
+
+/* Descriptions */
+.item-description {
+  color: alpha(@foreground, 0.4);
+  font-size: 11px;
+}
