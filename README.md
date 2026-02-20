@@ -6,5 +6,6 @@ A brutalist, high-contrast desktop environment for Arch Linux. Synthetica blends
 <img width="2560" height="1600" alt="screenshot-2026-02-20_17-55-15" src="https://github.com/user-attachments/assets/69fb1c61-8e33-4702-8432-4fd180aa8dae" />
 
 
+#Install
 ```bash
 omarchy-theme-install https://github.com/stannorbvb-cmd/synthetica.git
