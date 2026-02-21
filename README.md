@@ -3,6 +3,9 @@ A brutalist, high-contrast desktop environment for Omarchy Arch Linux. Synthetic
 # Screenshot
 <img width="2560" height="1600" alt="preview" src="https://github.com/user-attachments/assets/fe18dae3-0f7b-4939-8137-78b0a68a62f5" />
 
+<img width="2560" height="1600" alt="screenshot-2026-02-21_12-15-14" src="https://github.com/user-attachments/assets/20cb8bca-f810-469f-b011-252187154580" />
+
+
 <img width="2560" height="1600" alt="screenshot-2026-02-20_17-55-15" src="https://github.com/user-attachments/assets/69fb1c61-8e33-4702-8432-4fd180aa8dae" />
 
 # Walker Perview
